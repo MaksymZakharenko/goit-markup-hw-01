@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,20 +11,23 @@
     <header>
       <nav>
         <ul>
-          <li><a href="">WebStudio</a></li>
-          <li><a href="">Студия</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
-          <li><a href="">info@devstudio.com</a></li>
-          <li><a href="">+38 096 111 11 11</a></li>
+          <li><a href="/index.html">WebStudio</a></li>
+          <li><a href="/index.html">Студия</a></li>
+          <li><a href="/index.html">Портфолио</a></li>
+          <li><a href="/index.html">Контакты</a></li>
         </ul>
       </nav>
+      <ul>
+        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+        <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
     </header>
     <main>
       <!--шапка-->
       <section>
         <h1>Эффективные решения для вашего бизнеса</h1>
-        <a href="">Заказать услугу</a>
+        <button>Заказать услугу</button>
+        <!--сделать кнопку!!!!!!-->
       </section>
       <!--особенности-->
       <section>
@@ -62,28 +65,73 @@
       <!--чем мы занимаемся-->
       <section>
         <h2>Чем мы занимаемся</h2>
-        <img src="./img/img1.png" alt="foto1" width="370" />
-        <img src="./img/img2.png" alt="foto2" width="370" />
-        <img src="./img/img3.png" alt="foto3" width="370" />
+        <img src="./img/img1.jpg" alt="foto1" width="370" height="294" />
+        <img src="./img/img2.jpg" alt="foto2" width="370" height="294" />
+        <img src="./img/img3.jpg" alt="foto3" width="370" height="294" />
       </section>
       <!--наша комманда-->
       <section>
         <h2>Наша комманда</h2>
-        <img src="./img/Product_Designer.jpg" alt="Product_Designer" width="270" />
-        <img src="./img/Frontend_Developer.jpg" alt="Frontend_Developer" width="270" />
-        <img src="./img/Marketing.jpg" alt="Marketing" width="270" />
-        <img src="./img/UI_Designer.jpg" alt="UI_Designer" width="270" />
+        <figure>
+          <img
+            src="./img/Product_Designer.jpg"
+            alt="Product_Designer"
+            width="270"
+            height="260"
+          />
+          <figcaption>
+            <h3>Игорь Демьяненко</h3>
+            <p>Product Designer</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./img/Frontend_Developer.jpg"
+            alt="Frontend_Developer"
+            width="270"
+            height="260"
+          />
+          <figcaption>
+            <h3>Ольга Репина</h3>
+            <p>Frontend Developer</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./img/Marketing.jpg"
+            alt="Marketing"
+            width="270"
+            height="260"
+          />
+          <figcaption>
+            <h3>Николай Тарасов</h3>
+            <p>Marketing</p>
+          </figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./img/UI_Designer.jpg"
+            alt="UI_Designer"
+            width="270"
+            height="260"
+          />
+          <figcaption>
+            <h3>Михаил Ермаков</h3>
+            <p>PUI Designer</p>
+          </figcaption>
+        </figure>
       </section>
     </main>
     <!--подвал-->
     <footer>
       <section>
-        <h2>Контаты</h2>
+        <!--позже спрятать в CSS-->
+        <h2>Контакты</h2>
         <ul>
-          <li>WebStudio</li>
-          <li>г. Киев, пр-т Леси Украинки, 26</li>
-          <li>info@devstudio.com</li>
-          <li>+38 096 111 11 11</li>
+          <li><a href="/index.html">WebStudio</a></li>
+          <li><address>г. Киев, пр-т Леси Украинки, 26</address></li>
+          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </section>
     </footer>
